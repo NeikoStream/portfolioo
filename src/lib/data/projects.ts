@@ -12,7 +12,7 @@ export const items: Array<Project> = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: "Création d'une Intélligence Artificiel",
 		period: {
 			from: new Date()
 		},
@@ -20,17 +20,17 @@ export const items: Array<Project> = [
 		type: 'Website Template'
 	},
 	{
-		slug: 'slick-minedle-vitejs',
+		slug: 'minedle',
 		color: '#5e95e3',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Minedle est un jeu en ligne journalier, tous les jours les joueurs doivent trouver un monstres venant du jeu Minecraft',
+		links: [{ to: 'https://minedle.com', label: 'Minedle.com' }],
 		logo: Assets.Unknown,
 		name: 'Minedle',
 		period: {
-			from: new Date()
+			from: new Date('2023-12-01')
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Application WEB'
@@ -41,15 +41,16 @@ export const items: Array<Project> = [
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			"Création d'un moteur de recherche de série basé sur les sous-titre de celle ci en utilisant des algorithme complexe tel que TF-IDF",
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Moteur de recherche de séries',
 		period: {
-			from: new Date()
+			from: new Date('2023-09-04'),
+			to: new Date('2024-01-01')
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('python'),
+		type: 'Application python',
 		screenshots: [
 			{
 				label: 'screen 1',

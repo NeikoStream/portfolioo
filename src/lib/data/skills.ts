@@ -2,6 +2,7 @@ import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
 import svelte from '../md/svelte.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
+import { languages } from 'prismjs';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
@@ -96,6 +97,14 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'blue',
+		description: 'Lorem Ipsum',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
 	})
 ] as const;
 

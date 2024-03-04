@@ -19,19 +19,22 @@ export const items: Array<Experience> = [
 		shortDescription: 'Creating awesome tools for developers.'
 	},
 	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
+		slug: 'bk',
+		company: 'Burger King',
+		description: 'Job étudiant',
+		contract: ContractType.Contract,
 		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
+		location: 'Labarthe-sur-Lèze',
+		period: {
+			from: new Date('2022-01-01'),
+			to: new Date('2022-11-01')
+		},
+		skills: getSkills(''),
+		name: 'Employées Polyvalent',
+		color: 'orange',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Flip the burger'
 	},
 	{
 		slug: 'ADDINFORMATIQUE',

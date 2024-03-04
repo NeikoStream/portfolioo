@@ -8,33 +8,25 @@ export const name = 'Nicolas';
 export const lastName = 'Rousseau';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	"J'ai un fort sens du travail d'équipe, je suis capable de m'adapter à toutes les situations et je persévère dans tout ce que j'entreprends.";
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/NeikoStream' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/nicolas-rousseau-dev/'
 	},
 	{
 		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
+		link: 'https://twitter.com/NeikoStream'
 	},
 	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		platform: Platform.Twitch,
+		link: 'https://twitch.tv/NeikoStream'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'contact@nrousseau.fr'
 	}
 ];
 
