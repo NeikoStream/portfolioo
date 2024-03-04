@@ -14,7 +14,7 @@ export enum Platform {
 export type Icon = `i-${string}-${string}`;
 
 export enum ContractType {
-	FullTime = 'Full-time',
+	FullTime = 'CDI',
 	PartTime = 'Part-time',
 	SelfEmployed = 'Self-employed',
 	Freelance = 'Freelance',

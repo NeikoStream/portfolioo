@@ -38,7 +38,7 @@
 					{screenshot?.label}
 				</p>
 			</div>
-			<p class="text-[var(--accent-text)] text-0.7em">Click outside the frame to close</p>
+			<p class="text-[var(--accent-text)] text-0.7em">Cliquez en dehors de l'image pour fermer.</p>
 		</div>
 	</div>
 {/if}

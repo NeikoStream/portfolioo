@@ -19,7 +19,7 @@
 	)} ${experience.period.from.getFullYear()}`;
 	const to = experience.period.to
 		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
-		: 'Present';
+		: 'En cours';
 
 	const period = `${from} - ${to} · ${months}`;
 

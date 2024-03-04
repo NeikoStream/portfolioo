@@ -6,38 +6,38 @@ export const items: Array<Education> = [
 		degree: 'Bachelors Universitaires de Technologie en informatique',
 		description: '',
 		location: 'Université Toulouse III, Toulouse, France',
-		logo: Assets.Unknown,
+		logo: Assets.IUT,
 		name: '',
 		organization: 'ADMINISTRATION, GESTION & EXPLOITATION DONNEES',
 		period: { from: new Date(2021, 0, 1), to: new Date(2024, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['Algorithmique', 'Programmation', 'Base de données', 'Réseaux', 'Systèmes', 'Mathématiques', 'Anglais', 'Communication', 'Droit', 'Economie', 'Projet']
 	},
 	{
 		degree: 'DUT informatique',
 		description: '',
 		location: 'Université Toulouse III, Toulouse, France',
-		logo: Assets.Unknown,
+		logo: Assets.IUT,
 		name: '',
-		organization: 'ADMINISTRATION, GESTION & EXPLOITATION DONNEES',
+		organization: '',
 		period: { from: new Date(2020, 0, 1), to: new Date(2021, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['Algorithmique', 'Programmation', 'Base de données', 'Réseaux', 'Systèmes', 'Mathématiques', 'Anglais', 'Communication', 'Droit', 'Economie', 'Projet']
 	},
 	{
-		degree: 'Baccalaureat STI2D option SIN',
+		degree: 'Baccalaureat STI2D',
 		description: 'mention bien',
-		location: 'Prades, France',
-		logo: Assets.Unknown,
+		location: 'Lycée Polyvalent Charles Renouviern, Prades, France',
+		logo: Assets.Lycee,
 		name: '',
-		organization: 'Lycée Polyvalent Charles Renouvier',
+		organization: "spécialité Systèmes d'Information et Numérique (SIN)",
 		period: { from: new Date(2017, 7, 1), to: new Date(2020, 7, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-3',
-		subjects: ['Computer Architecture']
+		subjects: ['Informatique', 'Arduino', 'Electronique', 'Mécanique', 'Mathématiques', 'Physique', 'Anglais', 'Espagnol']
 	}
 ];
 
-export const title = 'Éducation';
+export const title = "Parcours d'études";

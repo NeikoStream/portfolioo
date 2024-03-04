@@ -21,7 +21,7 @@
 	$: from = `${getMonthName(project.period.from.getMonth())} ${project.period.from.getFullYear()}`;
 	$: to = project.period.to
 		? `${getMonthName(project.period.to.getMonth())} ${project.period.to.getFullYear()}`
-		: 'now';
+		: 'En cours';
 </script>
 
 <Card color={project.color} href={`${base}/projects/${project.slug}`}>

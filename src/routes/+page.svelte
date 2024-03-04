@@ -8,6 +8,7 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
+	import Assets, { getAssetURL } from '$lib/data/assets';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -41,5 +42,5 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+	<img src={Assets.moi} alt="Nicolas Rousseau" class="rounded-full w-100px h-100px" />
 </div>

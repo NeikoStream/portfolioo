@@ -50,7 +50,7 @@
 
 <CommonPage {title}>
 	<div class="w-100% row">
-		<Input bind:this={searchInput} bind:value={search} placeholder={'Search...'} />
+		<Input bind:this={searchInput} bind:value={search} placeholder={'Rechercher...'} />
 	</div>
 	<div class="w-100% col flex-1">
 		<slot />

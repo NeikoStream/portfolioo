@@ -70,7 +70,22 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	BurgerKing: a('burger-king.svg'),
+	Minedle: a('Minedle.png'),
+	Tarn: a('tarn.svg'),
+	SearchEngine: a('search-engine.svg'),
+	Laravel: a('laravel.svg'),
+	PHP: a('php.svg'),
+	QGIS: a('QGIS.svg'),
+	BO: a('bo.png'),
+	PowerBI: a('powerbi.svg'),
+	IUT: a('iut.png'),
+	Lycee: a('lycee.png'),
+	SQL: a('sql.png'),
+	moi: a('moi.png'),
+	Trello: a('trello.svg'),
+	Git: a('git.svg'),
 };
 
 export default Assets;
