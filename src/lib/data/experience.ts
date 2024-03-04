@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.SandwichCourse,
 		type: 'Software Development',
 		location: 'Albi',
-		period: { from: new Date() },
+		period: { from: new Date('2023-09-04') },
 		skills: getSkills('QGIS', 'python','BO','postgres'),
 		name: 'ALTERNANT REFERENT TECHNIQUE SYSTEMES D’INFORMATIONS',
 		color: 'red',
@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 			to: new Date('2022-11-05')
 		},
 		skills: getSkills(''),
-		name: 'Équipier Polyvalent',
+		name: 'ÉQUIPIER POLYVALENT',
 		color: 'orange',
 		links: [],
 		logo: Assets.BurgerKing,

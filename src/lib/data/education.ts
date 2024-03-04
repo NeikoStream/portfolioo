@@ -3,7 +3,7 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelors Universitaires de Technologie en informatique',
+		degree: 'Bachelors Universitaires de Technologie en informatique (2021-2024)',
 		description: '',
 		location: 'Université Toulouse III, Toulouse, France',
 		logo: Assets.IUT,
@@ -15,7 +15,7 @@ export const items: Array<Education> = [
 		subjects: ['Algorithmique', 'Programmation', 'Base de données', 'Réseaux', 'Systèmes', 'Mathématiques', 'Anglais', 'Communication', 'Droit', 'Economie', 'Projet']
 	},
 	{
-		degree: 'DUT informatique',
+		degree: 'DUT informatique (2020-2021)',
 		description: '',
 		location: 'Université Toulouse III, Toulouse, France',
 		logo: Assets.IUT,
@@ -27,8 +27,8 @@ export const items: Array<Education> = [
 		subjects: ['Algorithmique', 'Programmation', 'Base de données', 'Réseaux', 'Systèmes', 'Mathématiques', 'Anglais', 'Communication', 'Droit', 'Economie', 'Projet']
 	},
 	{
-		degree: 'Baccalaureat STI2D',
-		description: 'mention bien',
+		degree: 'Baccalaureat STI2D mention bien (2017-2020)',
+		description: '',
 		location: 'Lycée Polyvalent Charles Renouviern, Prades, France',
 		logo: Assets.Lycee,
 		name: '',
