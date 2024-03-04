@@ -16,7 +16,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date('2023-12-01')
 		},
-		skills: getSkills('NodeJs', 'reactjs', 'ts', 'js', 'ViteJs'),
+		skills: getSkills('NodeJs', 'reactjs', 'ts', 'js', 'ViteJs', 'git', 'sql'),
 		type: 'Application WEB',
 		screenshots: [
 			{
@@ -69,7 +69,7 @@ export const items: Array<Project> = [
 			from: new Date('2023-09-04'),
 			to: new Date('2024-01-01')
 		},
-		skills: getSkills('python','git','Trello'),
+		skills: getSkills('python','git','Trello','sql','MongoDB'),
 		type: "Situation d'Apprentissage et d'Évaluation (SAÉ) Semestre 5",
 	},
 	{
@@ -156,7 +156,7 @@ export const items: Array<Project> = [
 			from: new Date('2022-10-01'),
 			to: new Date('2022-12-15')
 		},
-		skills: getSkills('php','js','html','css','Trello','git'),
+		skills: getSkills('php','js','html','css','sql','Trello','git'),
 		type: "Projet de la resource (R3.C01) Semestre 3",
 	},
 

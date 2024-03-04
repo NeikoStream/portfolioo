@@ -7,16 +7,16 @@ import { languages } from 'prismjs';
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
 const categories = [
-	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({ name: 'Langage de programmation', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
+	defineSkillCategory({ name: 'Bibliothèque', slug: 'library' }),
 	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
-	defineSkillCategory({ name: 'Databases', slug: 'db' }),
+	defineSkillCategory({ name: 'Base de données', slug: 'db' }),
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
 	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
-	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
+	defineSkillCategory({ name: 'Outils de développement', slug: 'devtools' }),
+	defineSkillCategory({ name: 'Balisage et style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
 ] as const;
@@ -162,7 +162,7 @@ export const items = [
 		description: "SQL (Structured Query Language) est un langage informatique normalisé servant à exploiter des bases de données relationnelles. La partie langage de manipulation des données de SQL permet d'interroger, de modifier ou de supprimer des données dans une base de données. J'ai pu obtenir cette compétence lors de ma formation en BUT informatique à l'IUT de Rangueil lors de la ressource <b>R3.07 : Bases de données</b>.",
 		logo: Assets.SQL,
 		name: 'SQL',
-		category: 'pro-lang'
+		category: 'db'
 	}),
 	defineSkill({
 		slug: 'Trello',
@@ -179,6 +179,14 @@ export const items = [
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'MongoDB',
+		color: 'green',
+		description: "MongoDB est un système de gestion de base de données orientée documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données. J'ai pu obtenir cette compétence lors de ma formation en BUT informatique à l'IUT de Rangueil lors de la ressource <b>R5.05 : Nouvelles Bases de données</b>.",
+		logo: Assets.MongoDB,
+		name: 'MongoDB',
+		category: 'db'
 	})
 	
 ] as const;
