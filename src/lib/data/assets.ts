@@ -71,21 +71,21 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	BurgerKing: a('burger-king.svg'),
+	BurgerKing: a('burger-king.png'),
 	Minedle: a('Minedle.png'),
-	Tarn: a('tarn.svg'),
+	Tarn: a('tarn.png'),
 	SearchEngine: a('search-engine.svg'),
-	Laravel: a('laravel.svg'),
-	PHP: a('php.svg'),
-	QGIS: a('QGIS.svg'),
+	Laravel: a('laravel.png'),
+	PHP: a('php.png'),
+	QGIS: a('QGIS.png'),
 	BO: a('bo.png'),
-	PowerBI: a('powerbi.svg'),
+	PowerBI: a('powerbi.png'),
 	IUT: a('iut.png'),
 	Lycee: a('lycee.png'),
 	SQL: a('sql.png'),
 	moi: a('moi.png'),
 	Trello: a('trello.svg'),
-	Git: a('git.svg'),
+	Git: a('git.png')
 };
 
 export default Assets;
