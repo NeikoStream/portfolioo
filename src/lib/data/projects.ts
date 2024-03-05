@@ -9,7 +9,7 @@ export const items: Array<Project> = [
 		description:
 			"J'ai développé un jeu en ligne quotidien où les joueurs doivent trouver un monstre issu du jeu Minecraft chaque jour. Ce projet m'a offert l'opportunité d'apprendre en autodidacte le framework front-end ViteJS, ainsi que de découvrir TypeScript. J'ai également pu mettre en pratique mes connaissances en JavaScript, acquises notamment grâce à la ressource R5.C.04 - Programmation au format web des informations décisionnelles, suivie en cours.",
 		shortDescription:
-			'Jeu en ligne quotidien, tous les jours les joueurs doivent trouver un monstres venant du jeu Minecraft.',
+			'Jeu en ligne quotidien, tous les jours les joueurs doivent trouver un monstre venant du jeu Minecraft.',
 		links: [{ to: 'https://minedle.com', label: 'Minedle.com' }],
 		logo: Assets.Minedle,
 		name: 'Minedle',
@@ -21,47 +21,70 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Accueil',
-				src: "https://i.imgur.com/IimwfoT.png"
+				src: 'https://i.imgur.com/IimwfoT.png'
 			},
 			{
 				label: 'Monstres',
-				src: "https://i.imgur.com/V4gPsGt.png"
+				src: 'https://i.imgur.com/V4gPsGt.png'
 			},
 			{
 				label: 'Comparaison des monstres',
-				src: "https://i.imgur.com/sQmS5O8.png"
+				src: 'https://i.imgur.com/sQmS5O8.png'
 			},
 			{
 				label: 'Victoire',
-				src: "https://i.imgur.com/KyTiNzB.png"
+				src: 'https://i.imgur.com/KyTiNzB.png'
 			}
-			
 		]
 	},
 	{
 		slug: 'machine-learning-comparaison',
 		color: '#5e95e3',
-		description:"L'objectif de ce projet était de comparer différents modèles de machine learning pour prédire la qualité des commentaire de livres. Pour cela, nous avons utilisé des modèles de machine learning tels que la régression linéaire, la régression logistique, les arbres de décision, les forêts aléatoires, les machines à vecteurs de support et les réseaux de neurones.",
-		shortDescription:"Comparation de divers modèles de machine learning pour prédire la qualité des commentaires de livres.",
+		description:
+			"L'objectif de ce projet était de comparer différents modèles de machine learning pour prédire la qualité des commentaire de livres. Pour cela, nous avons utilisé des modèles de machine learning tels que la régression linéaire, la régression logistique, les arbres de décision, les forêts aléatoires, les machines à vecteurs de support et les réseaux de neurones.",
+		shortDescription:
+			'Comparation de divers modèles de machine learning pour prédire la qualité des commentaires de livres.',
 		links: [{ to: 'https://github.com/4PoH/SAES6', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: "Comparaison de différent modèle",
+		name: 'Comparaison de différent modèle',
 		period: {
 			from: new Date('2024-02-01'),
 			to: new Date('2024-03-07')
 		},
-		skills: getSkills('python','git','Trello'),
-		type: "Situation d'Apprentissage et d'Évaluation (SAÉ) Semestre 6"
-		
+		skills: getSkills('python', 'git', 'Trello'),
+		type: "Situation d'Apprentissage et d'Évaluation (SAÉ) Semestre 6",
+		screenshots: [
+			{
+				label: 'Comparaison des modèles',
+				src: 'https://agd.data.gouv.fr/wp-content/uploads/2016/04/r%C3%A9seau.png'
+			}
+		]
 	},
-	
+	{
+		slug: 'tvs',
+		color: '#5e95e3',
+		description:
+			"Site WEB développé pour l'association Veracruz dans le but de promouvoir le projet Toulouse Ville Sauvage.",
+		shortDescription:
+			"Site WEB développé pour l'association Veracruz dans le but de promouvoir le projet Toulouse Ville Sauvage.",
+		links: [{ to: 'https://tvs.veracruz-tlse.fr/', label: 'TVS' }],
+		logo: Assets.Unknown,
+		name: "Promotion d'évenement",
+		period: {
+			from: new Date('2023-12-01'),
+			to: new Date('2024-01-01')
+		},
+		skills: getSkills('html', 'css', 'js'),
+		type: 'Bénévolat'
+	},
+
 	{
 		slug: 'search-engine',
 		color: '#ff3e00',
 		description:
 			'Le moteur de recherche de séries est un projet de fin de semestre 5, réalisé en binôme avec un camarade de classe. Il s’agit d’un moteur de recherche de séries basé sur les sous-titres, en utilisant des algorithmes complexes tels que TF-IDF pour trouver des séries en fonction de leur sous-titre et de leur description.',
 		shortDescription:
-			"Moteur de recherche de série basé sur les sous-titre, en utilisant des algorithme complexe tel que TF-IDF",
+			'Moteur de recherche de série basé sur les sous-titre, en utilisant des algorithme complexe tel que TF-IDF',
 		links: [{ to: 'https://github.com/NeikoStream', label: 'GitHub' }],
 		logo: Assets.SearchEngine,
 		name: 'Moteur de recherche de séries',
@@ -69,8 +92,14 @@ export const items: Array<Project> = [
 			from: new Date('2023-09-04'),
 			to: new Date('2024-01-01')
 		},
-		skills: getSkills('python','git','Trello','sql','MongoDB'),
+		skills: getSkills('python', 'git', 'Trello', 'sql', 'MongoDB'),
 		type: "Situation d'Apprentissage et d'Évaluation (SAÉ) Semestre 5",
+		screenshots: [
+			{
+				label: 'Application',
+				src: 'https://i.imgur.com/xpWQw1c.png'
+			}
+		]
 	},
 	{
 		slug: 'visualisation-donnees-r5c04',
@@ -86,12 +115,12 @@ export const items: Array<Project> = [
 			from: new Date('2023-11-01'),
 			to: new Date('2023-12-15')
 		},
-		skills: getSkills('js','html','css'),
-		type: "Projet de la resource (R5.C04) Semestre 5",
+		skills: getSkills('js', 'html', 'css'),
+		type: 'Projet de la resource (R5.C04) Semestre 5',
 		screenshots: [
 			{
 				label: 'Application',
-				src: "https://i.imgur.com/3MODCGd.png"
+				src: 'https://i.imgur.com/3MODCGd.png'
 			}
 		]
 	},
@@ -99,9 +128,8 @@ export const items: Array<Project> = [
 		slug: 'power-bi-sae4',
 		color: '#ff3e00',
 		description:
-			"Création de tableau de bord de visualisation de données en utilisant le logiciel <b>Power BI</b>. Ce projet a été réalisé en équipe de 4. Nous avons utilisé des outils de gestion de projet tel que <b>Trello</b> pour la répartition des tâches et la gestion du projet.",
-		shortDescription:
-			"Création de tableau de bord de visualisation de données",
+			'Création de tableau de bord de visualisation de données en utilisant le logiciel <b>Power BI</b>. Ce projet a été réalisé en équipe de 4. Nous avons utilisé des outils de gestion de projet tel que <b>Trello</b> pour la répartition des tâches et la gestion du projet.',
+		shortDescription: 'Création de tableau de bord de visualisation de données',
 		links: [],
 		logo: Assets.Unknown,
 		name: 'Tableau de bord de visualisation de données',
@@ -109,23 +137,21 @@ export const items: Array<Project> = [
 			from: new Date('2023-11-01'),
 			to: new Date('2023-12-15')
 		},
-		skills: getSkills('PowerBI','Trello'),
+		skills: getSkills('PowerBI', 'Trello'),
 		type: "Situations d'Apprentissage et d'Évaluation (SAÉ) Semestre 4",
 		screenshots: [
 			{
 				label: 'Tableau de bord',
-				src: "https://i.imgur.com/bjLW7RM.png"
+				src: 'https://i.imgur.com/bjLW7RM.png'
 			}
-		
 		]
 	},
 	{
-		slug : 'application-gestion-locative',
+		slug: 'application-gestion-locative',
 		color: '#ff3e00',
 		description:
 			"Création d'une application de gestion locative en utilisant le langage <b>Java</b> pour la partie front-end et back-end. Ce projet a été réalisé en équipe de 4. Nous avons utilisé des outils tel que <b>Git</b> pour la gestion de version et la collaboration sur le projet. Nous avons également utilisé des outils de gestion de projet tel que <b>Trello</b> pour la répartition des tâches et la gestion du projet.",
-		shortDescription:
-			"Création d'une application de gestion locative",
+		shortDescription: "Création d'une application de gestion locative",
 		links: [{ to: 'https://github.com/gaiailou/housing-rentals-application', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Application de gestion locative',
@@ -133,12 +159,12 @@ export const items: Array<Project> = [
 			from: new Date('2022-10-01'),
 			to: new Date('2023-01-15')
 		},
-		skills: getSkills('java','Trello','git'),
+		skills: getSkills('java', 'Trello', 'git'),
 		type: "Situations d'Apprentissage et d'Évaluation (SAÉ) Semestre 3",
-		screenshots:[
+		screenshots: [
 			{
 				label: 'Application',
-				src: "https://i.imgur.com/LXSfKiO.png"
+				src: 'https://i.imgur.com/LXSfKiO.png'
 			}
 		]
 	},
@@ -147,8 +173,7 @@ export const items: Array<Project> = [
 		color: '#ff3e00',
 		description:
 			"Création d'un site web pour une équipe sportive en utilisant des langages tel que <b>PHP, HTML, CSS et JavaScript</b> pour la partie front-end et back-end. Ce projet a été réalisé en binôme avec un camarade de classe. Nous avons utilisé des outils tel que <b>Git</b> pour la gestion de version et la collaboration sur le projet. Nous avons également utilisé des outils de gestion de projet tel que <b>Trello</b> pour la répartition des tâches et la gestion du projet.",
-		shortDescription:
-			"Création d'un site web pour une équipe sportive",
+		shortDescription: "Création d'un site web pour une équipe sportive",
 		links: [{ to: 'https://github.com/NeikoStream/Ultimate-Gestion', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Site web pour une équipe sportive',
@@ -156,10 +181,9 @@ export const items: Array<Project> = [
 			from: new Date('2022-10-01'),
 			to: new Date('2022-12-15')
 		},
-		skills: getSkills('php','js','html','css','sql','Trello','git'),
-		type: "Projet de la resource (R3.C01) Semestre 3",
-	},
-
+		skills: getSkills('php', 'js', 'html', 'css', 'sql', 'Trello', 'git'),
+		type: 'Projet de la resource (R3.C01) Semestre 3'
+	}
 ];
 
 export const title = 'Projets';
