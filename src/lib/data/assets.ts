@@ -83,7 +83,7 @@ const Assets = {
 	IUT: a('iut.png'),
 	Lycee: a('lycee.png'),
 	SQL: a('sql.png'),
-	moi: a('moi.png'),
+	moi: a('moi.png', 'moi.png'),
 	Trello: a('trello.svg'),
 	Git: a('git.png')
 };

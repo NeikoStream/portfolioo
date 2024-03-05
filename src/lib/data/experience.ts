@@ -9,7 +9,7 @@ export const items: Array<Experience> = [
 		description:
 			"Au cours de mon alternance, j'ai été intégré dans une équipe spécialisée, travaillant sur des rapports via Business Object pour un client. En première période, j'ai mis à jour des rapports suite à une réorganisation territoriale, puis élaboré un rapport en autonomie. Pendant la seconde période, formé sur QGIS, j'ai cartographié les actions des associations pour les personnes âgées, analysant les données démographiques pour identifier les zones sous-desservies. J'ai travaillé en autonomie, contactant les acteurs impliqués pour assurer la qualité du projet. J'ai développé des outils Excel et des guides d'utilisation pour optimiser le processus, démontrant ma capacité à gérer des projets de manière indépendante et innovante.",
 		contract: ContractType.SandwichCourse,
-		type: 'Software Development',
+		type: 'Data Analyste',
 		location: 'Albi',
 		period: { from: new Date('2023-09-04') },
 		skills: getSkills('QGIS', 'python', 'BO', 'postgres'),
@@ -24,13 +24,13 @@ export const items: Array<Experience> = [
 		slug: 'Veracruz',
 		company: 'Association Veracruz',
 		description:
-			"Passage au numérique de l'association via la création d'un site internet, un intranet...",
+			"Mon expérience de bénévolat, toujours d'actualité, s'inscrit au sein de l'association Veracruz, une organisation écologique et naturaliste basée sur le campus de Toulouse III. Mon rôle principal au sein de cette association est celui de webmaster/développeur. J'ai été chargé de mettre en place un intranet Nextcloud ainsi qu'un site WordPress. En plus de ces tâches informatiques, j'ai également développé des jeux et d'autres contenus pour susciter l'intérêt des utilisateurs visitant le site. Par ailleurs, j'ai eu l'occasion d'animer différents stands informatifs sur la biodiversité au sein du campus Paul Sabatier. De plus, j'ai activement participé à un projet de panier pour les étudiants, contribuant ainsi à leur bien-être et à la promotion des initiatives écologiques au sein de la communauté estudiantine.",
 		contract: ContractType.Benevolat,
-		type: 'Software Development',
+		type: 'Bénévolat',
 		location: 'Toulouse',
 		period: { from: new Date('2023-05-01') },
 		skills: getSkills('html', 'css', 'php', 'git', 'Trello'),
-		name: 'Webmaster bénévole',
+		name: 'WEBMASTER / DÉVELOPPEUR',
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
@@ -42,7 +42,7 @@ export const items: Array<Experience> = [
 		description:
 			"Stage de 12 semaines en tant que Développeur WEB front/back (Laravel), centré sur la refonte totale du site et la création d'un logiciel de formation aux normes qualiopi. J'ai acquis une solide expertise en développement WEB.Stage de 12 semaines en tant que Développeur WEB front/back (Laravel), centré sur la refonte totale du site et la création d'un logiciel de formation aux normes qualiopi. J'ai acquis une solide expertise en développement WEB.",
 		contract: ContractType.Internship,
-		type: 'Software Development',
+		type: 'Développement Web',
 		location: 'Toulouse',
 		period: { from: new Date('2023-04-01'), to: new Date('2023-06-20') },
 		skills: getSkills('css', 'html', 'js', 'Laravel', 'php'),
@@ -59,7 +59,7 @@ export const items: Array<Experience> = [
 		description:
 			"Pendant mon emploi étudiant chez Burger King, j'ai développé des compétences précieuses pour travailler sous pression et gérer une cuisine dynamique. En tant que membre de l'équipe, j'ai été constamment confronté à des situations exigeantes où la rapidité et la précision étaient essentielles. Cela m'a permis de perfectionner ma capacité à travailler efficacement dans des environnements à haut débit, en maintenant toujours la qualité des produits et le respect des normes de sécurité alimentaire. J'ai également appris à collaborer avec mes collègues pour assurer une coordination fluide des opérations en cuisine, ce qui a renforcé mes compétences en communication et en travail d'équipe. Mon expérience chez Burger King m'a donc non seulement permis d'acquérir des compétences pratiques en cuisine, mais aussi de développer une résistance au stress et une capacité à exceller dans des environnements de travail exigeants.",
 		contract: ContractType.FullTime,
-		type: 'Software Development',
+		type: 'Cuisine',
 		location: 'Labarthe-sur-Lèze',
 		period: {
 			from: new Date('2022-01-28'),
